@@ -1,0 +1,12 @@
+Abseiling#Table Mountain#595
+Whale Watching#Pletternberg Bay#500
+Whale Watching#Mosselbay #550
+Sky Diving#Plettenberg Bay#1800
+Sky Diving#Pietermaritzburg#1650
+Sky Diving#Mosselbay#2000
+Paragliding#Enkhaba Mountain#875
+Paragliding#Lions Head#950
+River Rafting#Parys#240
+Bungee Jumping#Bloukrans#690
+Bungee Jumping#Orlando owers#480
+Hot Air Balloon#Paarl#2850
