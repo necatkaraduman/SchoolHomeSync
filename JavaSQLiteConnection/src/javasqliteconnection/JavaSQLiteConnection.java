@@ -17,6 +17,7 @@ public class JavaSQLiteConnection {
     public static void main(String[] args) {
         Sqlite conn = new Sqlite("ExtraLessons.sqlite");
         conn.connect();
+        conn.
     }
     
 }
