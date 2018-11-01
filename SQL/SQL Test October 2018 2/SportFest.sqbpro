@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:/Users/23723/Downloads/result (1)/SportFest.sqlite" foreign_keys="1"/><window><current_tab id="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="1494"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="tblStudent"/><default_encoding codec=""/><browsetable_info data="AAAABAAAABQAdABiAGwAUwB0AHUAZABlAG4AdAAAAAQAAAABAAAAAQAAAAQAAAC6AAAAAgAAAAQAAAAAAAAAAgAAAAAAAAAAAP//////////AAAAAP////8AAAAWAHQAYgBsAFAAYQB5AG0AZQBuAHQAcwAAAAMAAAABAAAAAAAAAAAAAAAAAP//////////AAAAAP////8AAAAUAHQAYgBsAEMAbwBhAGMAaABlAHMAAAAAAAAAAAAAAAAAAAAAAAAAAAD//////////wAAAAD/////AAAAFAB0AGIAbABBAGMAYwBvAHUAbgB0AAAAAAAAAAAAAAAAAAAAAAAAAAAA//////////8AAAAA/////w=="/></tab_browse><tab_sql><sql name="SQL 1">SELECT KitPrice, Coach, Sport
+FROM tblCoaches
+ORDER BY KitPrice DESC, Coach</sql><sql name="SQL 2">INSERT INTO tblStudent(Surname,FName,DOB,AccountNum,KitReceived,SportTeamID)
+VALUES (&quot;Fini&quot;,&quot;Jane&quot;,&quot;1998-07-17 00:00:00&quot;,&quot;FINI7&quot;,&quot;False&quot;,&quot;GTennis&quot;)</sql><sql name="SQL 3">SELECT Surname,FName,DOB
+FROM tblStudent
+WHERE SUBSTR(SportTeamID,1,1)=&quot;B&quot;
+ORDER BY DOB DESC
+LIMIT 5</sql><sql name="SQL 4">SELECT Surname,FName,SportTeamID
+FROM tblStudent
+WHERE SUBSTR(SportTeamID,1,1)=&quot;G&quot; AND (SUBSTR(Surname,1,3)=&quot;van&quot; OR SUBSTR(Surname,1,2)=&quot;de&quot;)</sql><sql name="SQL 5">SELECT Surname,FName
+FROM tblStudent
+LEFT JOIN tblPayments ON tblPayments.AccountNum=tblStudent.AccountNum
+WHERE AmountPaid IS NOT NULL AND KitReceived = &quot;False&quot;
+
+</sql><sql name="SQL 6">SELECT SportTeamID,SUM(AmountPaid) AS TotalAmount
+FROM tblStudent
+LEFT JOIN tblPayments ON tblPayments.AccountNum = tblStudent.AccountNum
+GROUP BY SportTeamID
+HAVING TotalAmount &lt; 1000 OR TotalAmount IS NULL</sql><sql name="SQL 7">SELECT Surname,FName,strftime(&quot;%Y-%m-%d&quot;,'now')-DOB AS Age
+FROM tblStudent
+WHERE Age &gt; (SELECT AVG(strftime(&quot;%Y-%m-%d&quot;,'now')-DOB) FROM tblStudent)</sql><sql name="SQL 8">SELECT Surname,substr(Surname,1,4)||SUBSTR(ABS(ROUND(RANDOM()*9/9223372036854775807)),1,1) as Code
+FROM tblStudent</sql><sql name="SQL 9">select substr(abs(round(random()*9/9223372036854775807)),1,1)</sql><current_tab id="7"/></tab_sql></sqlb_project>
