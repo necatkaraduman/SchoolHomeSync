@@ -2,4 +2,6 @@
 
 [Window: Œ@ - at 11/05/18 07:57:33] [CONTROL][SHIFT][ESCAPE][CAPSLOCK][CAPSLOCK]
 
-[Window: Œ@ - at 11/05/18 07:57:57] iimm  ttrryyiinngg  [BACKSPACE][BACKSPACE][BACKSPACE][BACKSPACE]  hheerree
+[Window: Œ@ - at 11/05/18 07:57:57] iimm  ttrryyiinngg  [BACKSPACE][BACKSPACE][BACKSPACE][BACKSPACE]  hheerree                                                                                                                                                                                                                                                                                                                                                                                                          ii  [BACKSPACE][BACKSPACE]mm  [BACKSPACE][BACKSPACE][CONTROL][CONTROL][SHIFT][SHIFT][SHIFT][SHIFT][SHIFT][SHIFT][SHIFT][SHIFT][SHIFT][SHIFT][SHIFT][SHIFT][ESCAPE][ESCAPE]ww
+
+[Window: `FÄw - at 11/05/18 08:00:05] ooww
