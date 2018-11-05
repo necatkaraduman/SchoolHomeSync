@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build klog main",
+            "type": "shell",
+            "command": "C:/MinGW/bin/g++.exe",
+            "args": [
+                "-g",
+                "klog_main.cpp",
+                "-o klog_main.exe"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

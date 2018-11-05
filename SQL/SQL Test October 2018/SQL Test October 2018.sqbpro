@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:/Users/23723/Downloads/result/data.sqlite" foreign_keys="1"/><window><current_tab id="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="1106"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="tblPirates"/><default_encoding codec=""/><browsetable_info data="AAAABAAAABAAdABiAGwAUwBoAGkAcABzAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////////8AAAAA/////wAAAB4AdABiAGwAUwBoAGkAcABBAGwAbABvAGMAYQB0AGUAAAACAAAAAQAAAAAAAAAAAAAAAAD//////////wAAAAD/////AAAAFAB0AGIAbABQAGkAcgBhAHQAZQBzAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////////8AAAAA/////wAAAB4AdABiAGwATQBlAGQAQwBvAG4AZABpAHQAaQBvAG4AAAAAAAAAAAAAAAEAAAACAAAAtQAAAAAAAAAAAP//////////AAAAAP////8="/></tab_browse><tab_sql><sql name="SQL 1">SELECT Surname,FirstName,Height,Gender
+FROM tblPirates
+ORDER BY Height</sql><sql name="SQL 2">SELECT Surname,Weight,Weight-KgLost as CurrentWeight
+FROM tblPirates</sql><sql name="SQL 3">INSERT INTO tblMedCondition (MedID,Description)
+VALUES(9999,&quot;Aquaphobia&quot;)</sql><sql name="SQL 4">SELECT Surname,FirstName
+FROM tblPirates
+WHERE MedID = &quot;&quot;</sql><sql name="SQL 5">SELECT ShipName,COUNT(tblShipAllocate.PirateID) as NoOfPirates
+FROM tblShips
+LEFT JOIN tblShipAllocate ON tblShipAllocate.ShipID = tblShips.ShipID
+GROUP BY tblShipAllocate.ShipID
+HAVING NoOfPirates &gt;= 5</sql><sql name="SQL 6">SELECT Gender, SUM(KgLost) as &quot;Total Weight Loss&quot;
+FROM tblPirates
+GROUP BY Gender</sql><sql name="SQL 7">SELECT Surname,FirstName,ShipName
+FROM tblPirates
+LEFT JOIN tblShipAllocate ON tblShipAllocate.PirateID = tblPirates.PirateID
+LEFT JOIN tblShips ON tblShips.ShipID = tblShipAllocate.ShipID
+WHERE SUBSTR(FirstName,1,1)=SUBSTR(ShipName,1,1)</sql><sql name="SQL 8">SELECT ShipName,SUBSTR(ShipName,2,3)||SUBSTR(ABS(RANDOM()),2,1) AS Code
+FROM tblShips</sql><sql name="SQL 9">SELECT Surname, Weight/(Height*Height) as BMI
+FROM tblPirates
+WHERE MedID != &quot;&quot; AND BMI&gt;=25</sql><current_tab id="7"/></tab_sql></sqlb_project>
