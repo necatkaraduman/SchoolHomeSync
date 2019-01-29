@@ -1,0 +1,21 @@
+Jack Smith;Jeppe;24 27 35 32 47;3:45:12
+Rolande Inouye;BCC;25 31 37 37 47;4:37:56
+Sindy Burruss;BCC;29 35 32 31 50;3:50:10
+Orville Gauna;Rand Road Warriors;23 26 34 31 49;4:20:12
+Lemuel Jordahl;Rand Road Warriors;22 32 32 30 47;4:20:12
+Maribeth Malan;Pirates;30 34 37 33 44;3:55:21
+Tanna Custodio;BCC;30 34 30 34 44;4:56:34
+Rich Maguire;Rand Road Warriors;20 30 38 31 47;5:10:34
+Cathryn Keppel;Pirates;29 31 36 39 48;5:15:56
+Keturah Kovats;BCC;29 33 40 40 46;5:01:01
+Cassidy Pruneda;Jeppe;29 33 30 36 42;4:15:45
+Hilda Valadez;Pirates;27 35 35 37 48;4:23:52
+Manuel Pelaez;BCC;25 30 33 35 46;3:47:52
+Roy Derbyshire;Jeppe;25 28 36 36 44;4:14:31
+Catherine Shuler;Rand Road Warriors;25 28 30 36 47;5:10:34
+Jeannie Rhyne;Pirates;29 35 31 33 42;4:14:31
+Miss Racine;Jeppe;26 34 34 36 48;3:46:35
+Annamae Gober;Pirates;21 30 31 38 43;3:40:59
+Ozell Robbins;Rand Road Warriors;27 34 34 33 43;5:10:34
+Penney Woolford;BCC;23 30 30 35 47;3:47:52
+Mildred Rosenquist;Jeppe;30 33 33 40 49;5:12:03

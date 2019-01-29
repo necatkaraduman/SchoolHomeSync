@@ -1,0 +1,10 @@
+UNHCR#shelter#http://www.unhcr.org#Turkey#
+WHO#health#http://www.who.tk#Turkey#
+WFP#food#http://www.wfp.org#Turkey#
+CARITAS#education#http://www.wfp.org#Egypt#
+CRH#education#http://ww.crh.org#Egypt#
+UNICEF#child protection#http://www.unicef.org#Egypt#
+Questscope#education#http://www.questscope.org#Jordan#
+Medair#health#http://www.MEDAIR.org#Jordan#
+JHAS#health#http://www.jordanhealthaid.jo#Jordan#
+ACTED#food#http://ww.acted.org#Jordan#
