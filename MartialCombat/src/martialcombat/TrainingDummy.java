@@ -17,8 +17,8 @@ public class TrainingDummy {
         defenseRating = (int)(Math.random()*5)+1;
         System.out.println(this.getClass().getSimpleName() + " created with "+attackRating+" attack and "+defenseRating+" defense.");
     }
-    public boolean receiveAttack(int attStrength){
-        if(attStrength>defenseRating){
+    public boolean receiveAttack(int attackStrength){
+        if(attackStrength>defenseRating){
             System.out.println("Ouch! That hurt!");
         } else {
             System.out.println("Tis barely a scratch!");
