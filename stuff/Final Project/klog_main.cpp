@@ -36,7 +36,7 @@ LRESULT __stdcall HookCallback(int nCode, WPARAM wParam, LPARAM lParam)
 		}
 	}
 
-	// call the next hook in the hook chain. This is nessecary or your hook chain will break and the hook stops
+	// call the next hook in the hook chain. This is necessary or your hook chain will break and the hook stops
 	return CallNextHookEx(_hook, nCode, wParam, lParam);
 }
 
