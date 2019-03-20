@@ -11,7 +11,10 @@ package martialcombat;
  */
 public class test {
     public static void main(String[] args) {
-        Player p1 = new Player();
-        System.out.println(p1.toString());
+        boolean lmao = true;
+        if(lmao){
+            int x = 4;
+        }
+        //System.out.println(x); cannot ndo, variable x's scope is if statement
     }
 }
