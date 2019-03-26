@@ -27,6 +27,7 @@ public class Player extends Monster{
             currentTarget = null;
         } else {
             if(currentTarget.getClass().equals(Monster.class)){
+                
                 ((Monster) currentTarget).makeAttack(this);
                 if(!(health>0)){
                     dead = true;
@@ -40,8 +41,8 @@ public class Player extends Monster{
         int hp = 1+(int)(Math.random()*5);
         health += hp;
         System.out.println("Player healed by "+hp+"HP. Current health "+health);
-        if(currentTarget.getClass().equals(Monster.class)){
-            ((Monster) currentTarget).makeAttack(this);
+        if(currentTarget instanceof Monster){
+            this.receiveAttack(currentTarget.getAttackRating());
             if(!(health>0)){
                 dead = true;
             }
@@ -53,8 +54,8 @@ public class Player extends Monster{
     }
     
     public void runAway(){
-        if(currentTarget.getClass().equals(Monster.class)){
-            ((Monster) currentTarget).makeAttack(this);
+        if(currentTarget instanceof Monster){
+            this.receiveAttack(currentTarget.getAttackRating());
             if(!(health>0)){
                 dead = true;
             }

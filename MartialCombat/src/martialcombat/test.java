@@ -11,12 +11,10 @@ package martialcombat;
  */
 public class test {
     public static void main(String[] args) {
-        Monster m1 = new Monster();
-        Monster m2 = new Monster();
-        TrainingDummy td1 = new TrainingDummy();
-        Player p1 = new Player();
-        System.out.println("");
-        p1.setTarget(m1);
-        p1.playerAttack();
+        boolean lmao = true;
+        if(lmao){
+            int x = 4;
+        }
+        //System.out.println(x); cannot ndo, variable x's scope is if statement
     }
 }
